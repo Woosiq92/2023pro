@@ -1,0 +1,58 @@
+input:focus {outline: none;}
+
+#login{
+text-align: center;
+width:300px;
+height:70px;
+border: 0px;
+background-color:#094a9a;
+color:#fff;
+cursor:pointer;
+}
+#header{
+	display:block;
+	text-align: center;
+	margin : 0 auto;
+	width:680px; 
+	height:70px;
+	left:50%;
+	font-size:40px;
+	background-color: #094a9a; 
+	color:#fff;
+}
+#design div{
+	text-align: center;
+
+}
+
+#design{
+	height:1000px;
+	width:300px;
+	margin: 0 auto;
+	
+}
+
+.txt{
+float:left;
+margin:0;
+padding:0;
+cursor: pointer;
+font-size: 14px;
+font-weight: 700;
+
+}
+
+.btn{
+border:solid 1px #dadada;
+width:300px;
+height:50px;
+padding-bottom: 1px;
+}
+
+.tm{
+padding-bottom: 50px;
+}
+
+#design:nth-child(2){
+	padding-top: 20px;
+}

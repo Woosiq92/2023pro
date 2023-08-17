@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SIGN</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/main.css">
+<script defer src ="main.js" ></script>
+</head>
+
+<body>
+<div id=header>
+	환일고등학교 수강신청 시스템
+</div>
+	<div id=design>
+		<div class="tm">
+				<p class="txt">아이디</p>
+				<input type="text" onblur="this.placeholder='아이디를 입력해주세요'"class="btn" id="id"/>
+		</div>	
+		<div class="tm">
+				<p class="txt">비밀번호</p>
+				<input type="password" onblur="this.placeholder='8자리 이상 입력해주세요' "class="btn" id="pw"/>
+		</div>
+		<div class="tm">
+				<p class="txt">비밀번호 재확인</p>
+				<input type="password" onblur="this.placeholder='비밀번호를 다시 입력해주세요' "class="btn" id="re_pw"/>
+		</div>
+		<div class="tm">
+				<p class="txt">이름</p>
+				<input type="text" onblur="this.placeholder='이름을 입력해주세요'" class="btn" id="nam"/>
+		</div>
+		<div class="tm">
+				<form>
+				<p class="txt">생년월일</p>
+				<p><input type="date"></p>
+				</form>
+		</div>
+		<div class="tm">
+				<p class="txt">성별</p>	
+				<form>
+				<select id="gen" name="gen">
+				  <option value="">-- 선택하세요 --</option>
+				    <option value="men">남</option>
+				    <option value="girl">여</option>
+				      <option value="no">선택안함</option>
+				  </select>
+				 </form>
+		</div>
+		<div id="sign">
+		<input type="button" value="가입하기" id="login" onclick="checkLog()"/>
+		</div>
+</div>
+</body>
+</html>
